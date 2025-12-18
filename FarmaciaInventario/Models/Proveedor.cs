@@ -1,0 +1,1 @@
+using System.Collections.Generic; namespace FarmaciaInventario.Models { public class Proveedor { public int ProveedorId {get;set;} public string Nombre {get;set;} public ICollection<Medicamento> Medicamentos {get;set;} } }

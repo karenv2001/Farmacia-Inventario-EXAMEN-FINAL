@@ -1,0 +1,1 @@
+using System; using System.Collections.Generic; namespace FarmaciaInventario.Models { public class Venta { public int VentaId {get;set;} public DateTime Fecha {get;set;} public ICollection<DetalleVenta> Detalles {get;set;} } }

@@ -1,0 +1,1 @@
+namespace FarmaciaInventario.Models { public class DetalleVenta { public int DetalleVentaId {get;set;} public int VentaId {get;set;} public int MedicamentoId {get;set;} public int Cantidad {get;set;} public Venta Venta {get;set;} public Medicamento Medicamento {get;set;} } }
